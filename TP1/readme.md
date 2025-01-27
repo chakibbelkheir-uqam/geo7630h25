@@ -10,7 +10,7 @@ Notre application est là pour simplifier ce processus. Elle vous aide à compar
 
 Nous avons rassemblé un ensemble de données précises et variées pour vous fournir une analyse claire et complète a partir des données ouvertes de la ville de montréal :  
 
-### **Les données quantitatives** 
+### **🔢Les données quantitatives** 
 - **🚨Proximité des centres de police et de pompiers associée au taux de criminalité🚨** : pour garantir la sécurité.  
 - **Prix moyens des logements💰** : pour évaluer l'accessibilité financière.    
 - **Distance moyenne aux commodités essentielles🏥🏫🌳** : écoles, hôpitaux, commerces, espaces verts et administrations.
@@ -22,7 +22,7 @@ Nous avons rassemblé un ensemble de données précises et variées pour vous fo
 -  **Les dates de fin de baux de locations** : Vous cherchez un logement disponible rapidement ? Grâce aux dates de fin de baux, nous identifions les zones où vous avez le plus de chances de trouver un logement sans stress.
 -  **La disponibilité et la gratuité du stationnement**🚗 : Afin de pouvoir garer son véhicule sans toucher a votre porte feuille.
 
-### **Les données qualitatives**  
+### **💎Les données qualitatives**  
 - **Perception de la sécurité par les habitants🛡️**.  
 - **Qualité des infrastructures scolaires**.  
 - **Accès aux transports publics🚌** : fréquence et proximité des lignes.  
