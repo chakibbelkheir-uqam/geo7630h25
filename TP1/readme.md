@@ -19,7 +19,7 @@ Nous avons rassemblé un ensemble de données précises et variées pour vous fo
 - **Indices de sonorisation** : pour ceux qui recherchent le calnme plat.
 - **Taux d’emploi local** : pour évaluer les opportunités économiques.  
 - **Densité de population** : pour ceux qui recherchent un environnement calme ou dynamique.
--  **Les dates de fin de bails de locations** : Afin d'affiner les recherches vers des secteurs ou la disponibilité du bail est quasi-garantie.
+-  **Les dates de fin de baux de locations** : Afin d'affiner les recherches vers des secteurs ou la disponibilité du bail est quasi-garantie.
 -  **La disponibilté et la gratuité du stationnement** : Afin de pouvoir garer son véhicule sans toucher a votre porte feuille.
 
 ### **Les données qualitatives**  
