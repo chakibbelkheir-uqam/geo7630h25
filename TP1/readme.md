@@ -13,13 +13,14 @@ Nous avons rassemblé un ensemble de données précises et variées pour vous fo
 ### **Les données quantitatives** 
 - **Proximité des centres de police et de pompiers associée au taux de criminalité** : pour garantir la sécurité.  
 - **Prix moyens des logements** : pour évaluer l'accessibilité financière.    
-- **Distance moyenne aux commodités essentielles** : écoles, hôpitaux, commerces, espaces verts.
-- **Distance moyenne aux commodités secondaires** : comme exepmle les restaurants et cinémas.
+- **Distance moyenne aux commodités essentielles** : écoles, hôpitaux, commerces, espaces verts et administrations.
+- **Distance moyenne aux commodités secondaires** : comme exepmle les restaurants et cinémas et les installations sportives.
 - **Indices de qualité de l’air** : pour une vie plus saine.
 - **Indices de sonorisation** : pour ceux qui recherchent le calnme plat.
 - **Taux d’emploi local** : pour évaluer les opportunités économiques.  
 - **Densité de population** : pour ceux qui recherchent un environnement calme ou dynamique.
--  **Les dates de fin de bails de locations** : Afin d'affiner les recherches vers des secteurs ou la disponibilité du bail est quasi-garantie. 
+-  **Les dates de fin de bails de locations** : Afin d'affiner les recherches vers des secteurs ou la disponibilité du bail est quasi-garantie.
+-  **La disponibilté et la gratuité du stationnement** : Afin de pouvoir garer son véhicule sans toucher a votre porte feuille.
 
 ### **Les données qualitatives**  
 - **Perception de la sécurité par les habitants**.  
@@ -44,5 +45,9 @@ Que vous soyez en train de chercher votre première maison, de déménager dans 
 
 C’est aussi un outil précieux pour les urbanistes, les agents immobiliers ou toute personne qui souhaite mieux comprendre les besoins des habitants. Bref, on vous aide à prendre une décision éclairée, sans stress, et parfaitement alignée avec vos priorités.  
 **Alors, prêt à découvrir le lieu qui vous correspond ? Oui?? Allons chercher votre bonheur nouveau coin de bonheur ensemble🌟**
+
+***Voila comment sera l'interface primaire de notre application***
+                      ![image](https://github.com/user-attachments/assets/0775abf4-6043-4924-83cb-94930c66cc0e)
+
 
 **Ce projet sera réalisé par : BELKHEIR MOHAMED CHAKIB (BELM24339701) et HAMIDI KHALED(HAMK15319703)**
