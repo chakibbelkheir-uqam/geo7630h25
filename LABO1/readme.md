@@ -12,8 +12,8 @@ Listez le matériel utilisé et les étapes méthodologiques suivies.
 
 ### Étapes
 1. Étape 1 :Ouvrir FME et Création d'un nouveau projet :
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text][def2]
+![alt text][def]
 2. Étape 2 :Lecture du CSV 
 
    1- Input : Établissements alimentaires de Montréal 
@@ -21,30 +21,30 @@ Avec les données d'adresse,Longitude et Latitude
 
 Ces données sont extraites du site des données ouvertes de la ville de Montréal
 
-![alt text](image-4.png)
-![alt text](image-3.png)
+![alt text][def3]
+![alt text][def4]
 
-   ![alt text](image-2.png)
+   ![alt text][def5]
 
    Au lieu de telecharger le fichier, on aura a copier l'adresse lien puis l'ajouter au Reader sur FME
 
-   ![alt text](image-5.png)
+   ![alt text][def6]
 
 Puis on suit les étapes suivantes sur Reader-FME,tout en prenant en compte le format CSV du fichier :
-![alt text](image-7.png)
+![alt text][def7]
 
 HOURAAA,le fichier s'est lié sans erreurs.
-![alt text](image-9.png)
+![alt text][def8]
 
 Mais on peut voir quelques erreurs dans les ecritures (des accents....)
 Pour remedier a ce probléme on suit les étapes suivantes :
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text][def9]
+![alt text][def11]
 
 Et voila,pas d'erreur d'ecriture 
 
 
-![alt text](image-12.png)
+![alt text][def10]
 3. Étape 3: Injection d'un table    
 4. Étape 4
 5. Étape 5
@@ -70,3 +70,16 @@ Résumé des principaux points et des conclusions tirées du TP.
 ## Références
 Listez les sources et références utilisées pour le TP.
 
+
+
+[def]: image-1.png
+[def2]: image.png
+[def3]: image-4.png
+[def4]: image-3.png
+[def5]: image-2.png
+[def6]: image-5.png
+[def7]: image-7.png
+[def8]: image-9.png
+[def9]: image-10.png
+[def10]: image-12.png
+[def11]: image-11.png
