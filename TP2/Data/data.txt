@@ -1,0 +1,21 @@
+
+1-Police de quartier :
+https://donnees.montreal.ca/fr/dataset/91f66001-b461-4f63-aff4-cddc0fe30ffe/resource/c9d0b8d6-c7a6-4766-a5cc-98e8b1392bbc/download/pdq.geojson
+2-Crimes :
+https://donnees.montreal.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/aacc4576-97b3-4d8d-883d-22bbca41dbe6/download/actes-criminels.geojson
+3-Caserne de Pompiers:
+https://donnees.montreal.ca/fr/dataset/c69e78c6-e454-4bd9-9778-e4b0eaf8105b/resource/beff8ce0-7a61-4a82-95b5-96d89bafa671/download/casernes.geojson
+4-Hopitaux :
+https://donnees.montreal.ca/fr/dataset/1eee09ec-d3b8-4c7d-ab6d-e85eb9fdd0b0/resource/4eab2cee-0ee4-4dd3-93c3-2a476173b8ec/download/eqsante.json
+5-Collége :
+https://www.donneesquebec.ca/recherche/dataset/2d3b5cf8-b347-49c7-ad3b-bd6a9c15e443/resource/fc806a50-7e84-4f39-acae-69069e4784bf/download/es_collegial.geojson
+6-Université
+https://www.donneesquebec.ca/recherche/dataset/2d3b5cf8-b347-49c7-ad3b-bd6a9c15e443/resource/f93b5275-9708-4de2-aea3-38273753694d/download/es_universitaire.geojson
+7-Commerces 
+https://donnees.montreal.ca/dataset/c1d65779-d3cb-44e8-af0a-b9f2c5f7766d/resource/ece728c7-6f2d-4a51-a36d-21cd70e0ddc7/download/businesses.geojson
+8-STM
+https://www.stm.info/sites/default/files/gtfs/stm_sig.zip
+9-Espaces verts
+https://donnees.montreal.ca/fr/dataset/2e9e4d2f-173a-4c3d-a5e3-565d79baa27d/resource/35796624-15df-4503-a569-797665f8768e/download/espace_vert.json
+10-Quartiers de Montréal :
+https://donnees.montreal.ca/dataset/limites-administratives-agglomeration/resource/6b313375-d9bc-4dc3-af8e-ceae3762ae6e/download
