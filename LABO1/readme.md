@@ -77,6 +77,13 @@ Pour cette étape d'exportation vers QGIS on utilise le Writer POSTGIS vers notr
 
 
 
+Et voici notre résultat FME 
+
+![image](https://github.com/user-attachments/assets/29525f88-e1d1-4e31-bdb8-2d9db79cc943)
+
+
+
+
 5. Étape 5 : Visualisation sur QGIS 🎨🌐 :
 
 on donne accées a notre base de données 
