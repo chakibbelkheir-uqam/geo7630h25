@@ -4,7 +4,7 @@
 Déscription des étapes relatives au laboratoire 3 
 
 ## Matériel et Méthodes
-Listez le matériel utilisé et les étapes méthodologiques suivies.
+Utiliser 2 Methodes d'analyses differentes
 
 ### Matériel
 - FME Workbench 
@@ -47,65 +47,126 @@ Utiliser le transformer Reprojector dans FME.
 
 
 
-4. Étape 4 : Exportation des données pour visualisation 
-Pour cette étape d'exportation vers QGIS on utilise le Writer POSTGIS vers notre base de données :
+4. Étape 4 : Jointure spatiale
+   
+Pour cette étape de jointure on faire joindre chaque arbres a chaque parcs  qui le contient :
+
+![image](https://github.com/user-attachments/assets/a6d0f559-aaef-4766-9eee-1f151971caf9)
+
+Les points sont les arbes et les parcs vu que c'est des polygones donc c'est les Area
+
+![image](https://github.com/user-attachments/assets/28be6df4-758e-4065-ad82-36a2a5b8dd67)
+
+BON REFLEXE !!!! Mon logger est mon ami 
+
+![image](https://github.com/user-attachments/assets/460e7369-5fb1-4723-b05d-ee64cc153939)
+
+
+5. Étape 5 : Nettoyage :
+
+Pour cette étape L'attribute keeper fera notre affaire
+
+   ![image](https://github.com/user-attachments/assets/142ab431-9eb1-4ff4-be7d-f62e13f525bb)
+
+ 
+6. Étape 6 : Calcul :
+
+On utilisera l'attribute creator pour ajouter une case de calcul de densité d'arbres pour chaque parc :
+
+![image](https://github.com/user-attachments/assets/0fdfdad7-66dc-4f7a-8d6a-542906cd2379)
+
+![image](https://github.com/user-attachments/assets/27143600-4a67-490a-82cb-b45e84222914)
+
+et on se permets par la meme occasion de mettre un peu d'ordre dans les noms d'attributs avec l'attribute manager 
+
+![image](https://github.com/user-attachments/assets/c79bfaef-8d24-4fcc-b3bf-119e199a993d)
+
+Puis on calculera la mediane en utilisant le statistic calculator :
+
+![image](https://github.com/user-attachments/assets/7c039578-32be-4ae5-8e8e-e763398a3ee0)
+
+Puis l'index de densité comme suit avec l'attribute manager :
+
+![image](https://github.com/user-attachments/assets/746b4828-c598-4d5c-a295-19eaeba8a6ce)
+
+
+![image](https://github.com/user-attachments/assets/41c41f8a-95a3-4185-8c6f-28427281f291)
 
 
 
-5. Étape 5 : Visualisation sur QGIS :
 
-on donne accées a notre base de données 
+7. Étape 7 : dernier nettoyage :
+   
+   Un nettoyage rigoureux garantit une base de données uniforme et fiable, en remplaçant les valeurs vides ou incorrectes par des valeurs nulles pour éviter les incohérences.
+   
+pour cela on va utiliser un null attribute manager
 
-
-
-puis on slide nos données voulues 
-
-
-
-
-6. Étape 6 : Symbologie et ajustements de la carte :
-
-  le premier pas a faire c'est de choisir une symbologie pour nos points afin de les mettre en valeur sur notre carte de fond qu'on choisit grace au plugin QGIS ;
+![image](https://github.com/user-attachments/assets/ca668ab5-78ff-40ab-aa9e-f6f67b6d20a5) 
 
 
-  
+8. Étape 8 : Exportation vers QGIS
 
-  et la carte de fond est tirée de Google Satellite
+On exporte nos données avec le writer pour une visualisation sur QGIS 
 
+![image](https://github.com/user-attachments/assets/cea1e5a4-b9da-448b-a2b0-a208c1a8171e)
 
+   
+9. Étape 9 : Visualisation sur QGIS
 
-
-
-
-7. Étape 7 :Résultats :
-
-Voici toutes les boulangeries et patisseries dans la ville de montréal 
+   ![image](https://github.com/user-attachments/assets/89d25f0e-a6b1-4b36-ab33-55505f4a5973)
 
 
-on y applique un Zoom sur une petite zone ;
+   PARTIE 2 DU LABO
+
+   LA SUITE DU LAB SE FERA PAR UNE ANALYSE EN UTILISANT LE H3 Hexagonal :
+   
+10. Étape 10 : Création d’une grille hexagonale :
+
+   on commence par connecter les données des parcs à un H3HexagonalIndexer et le configurer: 
+
+   ![image](https://github.com/user-attachments/assets/f51df78a-2fbd-4c48-83ab-d4989128e5a5)
+
+   OUPS !!!!! On oublie pas le reprojector 
+
+11. Étape 11 : Jointure spatiale avec les arbres :
+
+    Pour la jointure on utilisera le pointonAreaOverLayer :
+
+    ![image](https://github.com/user-attachments/assets/89d11642-420f-4602-8578-822a673ec2e6)
+
+12. Étape 12 : Selection des attributs :
+
+    On selectionne les attributs a garder avec l'attribute Keeper
+
+![image](https://github.com/user-attachments/assets/f84eac56-7e6f-46bf-886e-b714314b652e)
 
 
+Puis on renomme un attribut :
 
-et c'est ma boulangerie préférée ; un magnifique Saint-honoré
+![image](https://github.com/user-attachments/assets/0396d7b0-4404-495f-8a49-f99ff463643a)
 
-10. Étape 8
-11. Étape 9
-12. Étape 10
-13. Étape 11
-14. Étape 12
-15. Étape 13
-16. Étape 14
+
+    
+13. Étape 13 : Exportation vers QGIS :
+
+    Cela se fait avec un writer postgis
+    
+    ![image](https://github.com/user-attachments/assets/79deeba4-7335-4602-9eec-77d2f66c324b)
+
+14. Étape 14 : Visualisaton QGIS :
+
+    Aprés l'exportation on travaille sur une palette de couleur et un joli classement pour avoir le résultat suivant
+
+    ![image](https://github.com/user-attachments/assets/2fca22b4-4a55-481b-8c3e-df8c28756f2a)
+
 
 ## Résultats
-Présentez les résultats obtenus sous forme de texte, tableaux ou graphiques.
+On a pu comparer 2 méthodes d'analyses differentes : 
 
-## Discussion
-Analysez les résultats, comparez-les aux attentes et discutez des éventuelles erreurs.
+une analyse simple 
 
-## Conclusion
-Résumé des principaux points et des conclusions tirées du TP.
+une analyse par hexagones 
 
-## Références
-Listez les sources et références utilisées pour le TP.
+
 
 
