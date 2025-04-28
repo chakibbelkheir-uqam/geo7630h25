@@ -2,7 +2,7 @@
 
 ## 🎯 Objectif
 Élaborer une carte interactive de Montréal intégrant :
-- La densité d'arbres par quartier (polygones colorés)
+- Les commerces
 - Les contours administratifs des arrondissements
 
 ---
